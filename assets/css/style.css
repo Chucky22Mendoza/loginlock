@@ -1178,3 +1178,21 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/* MODAL */
+
+.modal-space {
+  background-color: #161616;
+}
+
+.close {
+  color: #ed3c0d;
+}
+
+.close:hover {
+  color: #ed3c0d;
+}
+
+.modal-change:hover {
+  cursor: pointer;
+}

@@ -438,7 +438,7 @@
             <span><strong>Public Page and Administration System</strong></span>
             <p>Development of the Frontend of the public and administrative user, as well as the design of the database and functionalities in certain modules of the Backend.</p>
             <br>
-            <img src="assets/img/portfolio/portfolio-1.jpg" alt="AHEC" width="100%">
+            <img id="ahec" src="assets/img/portfolio/portfolio-1.jpg" alt="Sistema Integral de Documentación para Filmotecas" width="100%" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
           </div>
         </div>
 
@@ -449,7 +449,7 @@
             <span><strong>Tracking System</strong></span>
             <p>Page developed during the pandemic by COVID-19, monitoring it. Backend and Frontend development.</p>
             <br>
-            <img src="assets/img/portfolio/portfolio-3s.jpg" alt="COVID-19 INFO" width="100%">
+            <img src="assets/img/portfolio/portfolio-3s.jpg" alt="COVID-19 INFO" width="100%" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
           </div>
         </div>
 
@@ -460,7 +460,7 @@
             <span><strong>Monitoring Systems and Administration System</strong></span>
             <p>Applications for monitoring vital signs. Database design and development. Development of desktop and mobile application. Frontend development of the website.</p>
             <br>
-            <img src="assets/img/portfolio/portfolio-2.jpg" alt="VITA DATA" width="100%">
+            <img src="assets/img/portfolio/portfolio-2.jpg" alt="VITA DATA" width="100%" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
           </div>
         </div>
 
@@ -529,6 +529,27 @@
     <!--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
   </div>
 
+  <!-- Modals -->
+  <div id="modalPortfolio" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="modalPortfolio">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content modal-space">
+        <div class="modal-header">
+          <h5 id="modalTitle" class="modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img id="modalImage" width="100%">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Modals -->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -542,6 +563,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/modal.js"></script>
 
 </body>
 
