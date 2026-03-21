@@ -124,6 +124,7 @@ const translations = {
     "opensource.intro": "Mantengo paquetes activos en npm con descargas semanales constantes.",
     "opensource.pkg1_desc": "Hook de React para generación de códigos de barras. Más de 50 descargas semanales.",
     "opensource.pkg2_desc": "Kit de utilidades y componentes para desarrollo web. Más de 20 descargas semanales.",
+    "opensource.pkg3_desc": "Herramienta CLI para facilitar y estandarizar la creación de módulos estructurales.",
     "opensource.view_npm": "Ver en npm",
     "opensource.view_github": "Ver en GitHub",
 
@@ -282,6 +283,7 @@ const translations = {
     "opensource.intro": "I maintain active packages on npm with consistent weekly downloads.",
     "opensource.pkg1_desc": "React hook for barcode generation. 50+ weekly downloads.",
     "opensource.pkg2_desc": "Utility and component kit for web development. 20+ weekly downloads.",
+    "opensource.pkg3_desc": "CLI tool to facilitate and standardize the creation of structural modules.",
     "opensource.view_npm": "View on npm",
     "opensource.view_github": "View on GitHub",
 
