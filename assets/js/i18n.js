@@ -10,6 +10,7 @@ const translations = {
     "nav.about": "Sobre mí",
     "nav.resume": "Currículum",
     "nav.portfolio": "Portafolio",
+    "nav.research": "Investigación",
     "nav.opensource": "Open Source",
     "nav.contact": "Contacto",
 
@@ -75,10 +76,14 @@ const translations = {
     "resume.edu2_place": "Tecnológico Nacional de México, Campus Colima.",
     "resume.edu2_desc": "Formación en sistemas computacionales, desarrollo de software y tecnologías de la información.",
 
-    "resume.edu3_title": "Vita-Data — Proyecto de Innovación ENEIT 2017",
-    "resume.edu3_dates": "2017",
-    "resume.edu3_place": "Tecnológico Nacional de México, Campus Colima.",
-    "resume.edu3_desc": "1.er lugar en etapa local y regional, con reconocimiento en etapa nacional.",
+    "resume.edu3_title": "Verano de Investigación Delfín",
+    "resume.edu3_dates": "2018",
+    "resume.edu3_place": "Universidad Politécnica de Querétaro (UPQ), Querétaro, México.",
+    "resume.edu3_desc": "Proyecto desarrollado con Mathematica sobre algoritmos de búsqueda voraz para obtener un camino extendido modificado de mínimo costo.",
+    "resume.edu4_title": "Vita-Data — Proyecto de Innovación ENEIT 2017",
+    "resume.edu4_dates": "2017",
+    "resume.edu4_place": "Tecnológico Nacional de México, Campus Colima.",
+    "resume.edu4_desc": "1.er lugar en etapa local y regional, con reconocimiento en etapa nacional.",
 
     "resume.experience_title": "Experiencia Profesional",
 
@@ -133,17 +138,29 @@ const translations = {
     "portfolio.p2_tags": "Node.js • Express • TypeScript • Prisma",
     "portfolio.p2_desc": "API REST con modelos de datos, operaciones CRUD, invitaciones y validaciones.",
     // p3 — Chernobyl Exclusion Zone
-    "portfolio.p3_tags": "React • Node.js • Stripe",
-    "portfolio.p3_desc": "Integración de pagos con webhooks, autenticación, configuración para producción y frontend responsive.",
-    // p4 — SIDF (Filmotecas)
-    "portfolio.p4_tags": "Hardware • Software • Salud",
-    "portfolio.p4_desc": "Proyecto multidisciplinario para monitoreo de pacientes en tiempo real, con contribución en sistemas e integración.",
-    // p5 — VITA DATA
-    "portfolio.p5_tags": "ENEIT 2017 • Innovación",
-    "portfolio.p5_desc": "Proyecto reconocido con 1.er lugar en etapa local y regional, y reconocimiento en etapa nacional.",
-    // p6 — COVID-19 INFO
-    "portfolio.p6_tags": "React • Node.js • Stripe",
-    "portfolio.p6_desc": "Implementación de pagos, webhooks, autenticación, configuración para producción y frontend responsive.",
+    "portfolio.p3_tags": "Frontend • Finanzas",
+    "portfolio.p3_desc": "Aplicación web para el seguimiento y análisis de finanzas personales.",
+    "portfolio.p4_tags": "Documentation • Frontend",
+    "portfolio.p4_desc": "Sitio para documentación de proyectos personales, con búsqueda y navegación estructurada.",
+    "portfolio.p5_tags": "Research • Frontend",
+    "portfolio.p5_desc": "Diseño, información e investigación sobre la zona de exclusión de Chernobyl.",
+    "portfolio.p6_tags": "Backend • Frontend • Rastreo",
+    "portfolio.p6_desc": "Página desarrollada para monitorear datos en tiempo real durante la pandemia.",
+    "portfolio.p7_tags": "Backend • Frontend • Base de datos",
+    "portfolio.p7_desc": "Frontend público y administrativo, diseño de base de datos y módulos backend.",
+    "portfolio.p8_tags": "Monitoreo de salud • IoT • Software",
+    "portfolio.p8_desc": "Solución multidisciplinaria para monitoreo de pacientes en tiempo real e integración de hardware y software.",
+    "portfolio.p9_title": "Integración de Pasarela de Pagos",
+    "portfolio.p9_tags": "React • Node.js • Stripe",
+    "portfolio.p9_desc": "Implementación de pagos, webhooks, autenticación, configuración para producción y frontend responsive.",
+
+    // --- RESEARCH ---
+    "research.section_label": "Investigación",
+    "research.section_subtitle": "Publicaciones y reconocimientos",
+    "research.kicker": "Artículo científico",
+    "research.title": "Algoritmo de búsqueda voraz para la obtención de un árbol extendido de costo mínimo modificado",
+    "research.description": "Artículo sobre algoritmos de búsqueda voraz aplicados al problema de un corredor de longitud mínima en un grafo poligonal.",
+    "research.download": "Descargar PDF",
 
     // --- CONTACT ---
     "contact.section_label": "Contacto",
@@ -164,6 +181,7 @@ const translations = {
     "nav.about": "About",
     "nav.resume": "Resume",
     "nav.portfolio": "Portfolio",
+    "nav.research": "Research",
     "nav.opensource": "Open Source",
     "nav.contact": "Contact",
 
@@ -229,10 +247,14 @@ const translations = {
     "resume.edu2_place": "Tecnológico Nacional de México, Colima Campus.",
     "resume.edu2_desc": "Training in computer systems, software development and information technologies.",
 
-    "resume.edu3_title": "Vita-Data — ENEIT 2017 Innovation Project",
-    "resume.edu3_dates": "2017",
-    "resume.edu3_place": "Tecnológico Nacional de México, Colima Campus.",
-    "resume.edu3_desc": "1st place at local and regional stages, with recognition at the national stage.",
+    "resume.edu3_title": "Delfín Research Summer Program",
+    "resume.edu3_dates": "2018",
+    "resume.edu3_place": "Universidad Politécnica de Querétaro (UPQ), Querétaro, Mexico.",
+    "resume.edu3_desc": "Developed a Mathematica project on greedy search algorithms to obtain a minimum-cost modified extended path.",
+    "resume.edu4_title": "Vita-Data — ENEIT 2017 Innovation Project",
+    "resume.edu4_dates": "2017",
+    "resume.edu4_place": "Tecnológico Nacional de México, Colima Campus.",
+    "resume.edu4_desc": "1st place at local and regional stages, with recognition at the national stage.",
 
     "resume.experience_title": "Professional Experience",
 
@@ -287,17 +309,29 @@ const translations = {
     "portfolio.p2_tags": "Node.js • Express • TypeScript • Prisma",
     "portfolio.p2_desc": "REST API with data models, CRUD operations, invitations and validations.",
     // p3 — Chernobyl Exclusion Zone
-    "portfolio.p3_tags": "React • Node.js • Stripe",
-    "portfolio.p3_desc": "Payment integration with webhooks, authentication, production configuration and responsive frontend.",
-    // p4 — SIDF (Filmotecas)
-    "portfolio.p4_tags": "Hardware • Software • Healthcare",
-    "portfolio.p4_desc": "Multidisciplinary project for real-time patient monitoring, contributing to the software and solution integration.",
-    // p5 — VITA DATA
-    "portfolio.p5_tags": "ENEIT 2017 • Innovation",
-    "portfolio.p5_desc": "Project recognized with 1st place at local and regional stages and recognition at the national stage.",
-    // p6 — COVID-19 INFO
-    "portfolio.p6_tags": "React • Node.js • Stripe",
-    "portfolio.p6_desc": "Payment integration, webhooks, authentication, production configuration and responsive frontend.",
+    "portfolio.p3_tags": "Frontend • Finance",
+    "portfolio.p3_desc": "Web application for tracking and analyzing personal finances.",
+    "portfolio.p4_tags": "Documentation • Frontend",
+    "portfolio.p4_desc": "Website for personal project documentation, with search and structured navigation.",
+    "portfolio.p5_tags": "Research • Frontend",
+    "portfolio.p5_desc": "Design, information and research about the Chernobyl exclusion zone.",
+    "portfolio.p6_tags": "Backend • Frontend • Tracking",
+    "portfolio.p6_desc": "Website developed to monitor real-time data during the pandemic.",
+    "portfolio.p7_tags": "Backend • Frontend • Database",
+    "portfolio.p7_desc": "Public and administrative frontend, database design and backend modules.",
+    "portfolio.p8_tags": "Health monitoring • IoT • Software",
+    "portfolio.p8_desc": "Multidisciplinary solution for real-time patient monitoring and hardware/software integration.",
+    "portfolio.p9_title": "Payment Gateway Integration",
+    "portfolio.p9_tags": "React • Node.js • Stripe",
+    "portfolio.p9_desc": "Payment integration, webhooks, authentication, production configuration and responsive frontend.",
+
+    // --- RESEARCH ---
+    "research.section_label": "Research",
+    "research.section_subtitle": "Publications and achievements",
+    "research.kicker": "Scientific article",
+    "research.title": "Greedy search algorithm for obtaining a modified minimum-cost spanning tree",
+    "research.description": "Article about greedy search algorithms applied to the minimum-length corridor problem in a polygonal graph.",
+    "research.download": "Download PDF",
 
     // --- CONTACT ---
     "contact.section_label": "Contact",

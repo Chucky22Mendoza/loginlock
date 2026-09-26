@@ -111,9 +111,10 @@
         <ul>
           <li class="active"><a href="#header" data-i18n="nav.home">Inicio</a></li>
           <li><a href="#about" data-i18n="nav.about">Sobre mí</a></li>
-          <li><a href="#resume" data-i18n="nav.resume">Currículum</a></li>
-          <li><a href="#portfolio" data-i18n="nav.portfolio">Portafolio</a></li>
-          <li><a href="#opensource" data-i18n="nav.opensource">Open Source</a></li>
+           <li><a href="#resume" data-i18n="nav.resume">Currículum</a></li>
+           <li><a href="#portfolio" data-i18n="nav.portfolio">Portafolio</a></li>
+           <li><a href="#research" data-i18n="nav.research">Investigación</a></li>
+           <li><a href="#opensource" data-i18n="nav.opensource">Open Source</a></li>
           <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -469,6 +470,20 @@
             <p><em data-i18n="resume.edu2_place">Tecnológico Nacional de México, Campus Colima.</em></p>
             <p data-i18n="resume.edu2_desc">Formación en sistemas computacionales, desarrollo de software y tecnologías de la información.</p>
           </div>
+
+          <div class="resume-item">
+            <h4 data-i18n="resume.edu3_title">Verano de Investigación Delfín</h4>
+            <h5 data-i18n="resume.edu3_dates">2018</h5>
+            <p><em data-i18n="resume.edu3_place">Universidad Politécnica de Querétaro (UPQ), Querétaro, México.</em></p>
+            <p data-i18n="resume.edu3_desc">Proyecto desarrollado con Mathematica sobre algoritmos de búsqueda voraz para obtener un camino extendido modificado de mínimo costo.</p>
+          </div>
+
+          <div class="resume-item">
+            <h4 data-i18n="resume.edu4_title">Vita-Data — Proyecto de Innovación ENEIT 2017</h4>
+            <h5 data-i18n="resume.edu4_dates">2017</h5>
+            <p><em data-i18n="resume.edu4_place">Tecnológico Nacional de México, Campus Colima.</em></p>
+            <p data-i18n="resume.edu4_desc">1.er lugar en etapa local y regional, con reconocimiento en etapa nacional.</p>
+          </div>
         </div>
 
         <div class="col-lg-6">
@@ -631,7 +646,7 @@
   </section><!-- End Open Source Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="services">
+  <section id="portfolio" class="portfolio-showcase">
     <div class="container">
 
       <div class="section-title">
@@ -639,92 +654,65 @@
         <p data-i18n="portfolio.section_subtitle">Mi Portafolio</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>RAZO CRM</h4>
-            <span><strong data-i18n="portfolio.p1_tags">Documentation • Frontend</strong></span>
-            <p data-i18n="portfolio.p1_desc">Página web para documentación de proyectos personales.</p>
-            <br>
-            <img src="assets/img/portfolio/portfolio-4.png" alt="Documentation Hub — Documentation" width="100%"
-              loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>Nvita API</h4>
-            <span><strong data-i18n="portfolio.p2_tags">Finances • Frontend</strong></span>
-            <p data-i18n="portfolio.p2_desc">Página web para seguimiento de finanzas personales.</p>
-            <br>
-            <img src="assets/img/portfolio/portfolio-6.png" alt="Tracker Finances — Finances" width="100%"
-              loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>Integración de Pasarela de Pagos</h4>
-            <span><strong data-i18n="portfolio.p3_tags">Investigación • Frontend</strong></span>
-            <p data-i18n="portfolio.p3_desc">Diseño, información e investigación sobre la zona de exclusión de Chernobyl
-              para turismo extremo.</p>
-            <br>
-            <img src="assets/img/portfolio/portfolio-5.webp" alt="Chernobyl Exclusion Zone — Página informativa"
-              width="100%" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>Vita-Data</h4>
-            <span><strong data-i18n="portfolio.p4_tags">Backend • Frontend • Base de datos</strong></span>
-            <p data-i18n="portfolio.p4_desc">Desarrollo del Frontend público y administrativo, diseño de BD y módulos
-              del Backend.</p>
-            <br>
-            <img id="ahec" src="assets/img/portfolio/portfolio-1.jpg"
-              alt="Vita-Data — Monitoreo de pacientes" width="100%" loading="lazy" data-toggle="modal"
-              data-target="#modalPortfolio" class="modal-change">
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a
-                href="https://www.xataka.com.mx/investigacion/vita-data-una-pulsera-hecha-por-mexicanos-que-envia-informacion-y-alertas-de-los-pacientes-a-los-medicos"
-                target="_blank" rel="noopener noreferrer">Vita-Data</a></h4>
-            <span><strong data-i18n="portfolio.p5_tags">Monitoreo de salud • IoT • Frontend</strong></span>
-            <p data-i18n="portfolio.p5_desc">Aplicaciones para la monitorización de signos vitales. Diseño de BD.
-              Desarrollo desktop, móvil y web.</p>
-            <br>
-            <img src="assets/img/portfolio/portfolio-2.jpg" alt="VITA DATA — Monitoreo de signos vitales" width="100%"
-              loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>Integración de Pagos con Stripe</h4>
-            <span><strong data-i18n="portfolio.p6_tags">Backend • Frontend • Rastreo</strong></span>
-            <p data-i18n="portfolio.p6_desc">Página desarrollada durante la pandemia de COVID-19 para monitorear datos
-              en tiempo real.</p>
-            <br>
-            <img src="assets/img/portfolio/portfolio-3.jpg" alt="COVID-19 INFO — Sistema de rastreo" width="100%"
-              loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change">
-          </div>
-        </div>
-
+      <div class="project-grid">
+        <article class="project-card project-card-featured">
+          <div class="project-card-media"><img src="assets/img/portfolio/razo-crm.jpg" alt="RAZO CRM" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">01</span><h3>RAZO CRM</h3><span class="project-tags" data-i18n="portfolio.p1_tags">Next.js • React • Prisma • APIs</span><p data-i18n="portfolio.p1_desc">CRM con dashboards, citas, reportes, Google Calendar, recordatorios por WhatsApp y servicios de correo con Resend.</p></div>
+        </article>
+        <article class="project-card project-card-featured">
+          <div class="project-card-media"><img src="assets/img/portfolio/nvita-api.jpg" alt="Nvita API" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">02</span><h3>Nvita API</h3><span class="project-tags" data-i18n="portfolio.p2_tags">Node.js • Express • TypeScript • Prisma</span><p data-i18n="portfolio.p2_desc">API REST con modelos de datos, operaciones CRUD, invitaciones y validaciones.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/img/portfolio/expense-trackig.png" alt="Expense Tracking" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">03</span><h3>Expense Tracking</h3><span class="project-tags" data-i18n="portfolio.p3_tags">Frontend • Finanzas</span><p data-i18n="portfolio.p3_desc">Aplicación web para el seguimiento y análisis de finanzas personales.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/img/portfolio/documentation-hub.png" alt="Documentation Hub" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">04</span><h3>Documentation Hub</h3><span class="project-tags" data-i18n="portfolio.p4_tags">Documentation • Frontend</span><p data-i18n="portfolio.p4_desc">Sitio para documentación de proyectos personales, con búsqueda y navegación estructurada.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/img/portfolio/chernobyl.webp" alt="Chernobyl Exclusion Zone" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">05</span><h3>Chernobyl Exclusion Zone</h3><span class="project-tags" data-i18n="portfolio.p5_tags">Research • Frontend</span><p data-i18n="portfolio.p5_desc">Diseño, información e investigación sobre la zona de exclusión de Chernobyl.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/img/portfolio/covid.jpg" alt="COVID-19 INFO" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">06</span><h3>COVID-19 INFO</h3><span class="project-tags" data-i18n="portfolio.p6_tags">Backend • Frontend • Tracking</span><p data-i18n="portfolio.p6_desc">Página desarrollada para monitorear datos en tiempo real durante la pandemia.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/img/portfolio/sidf.jpg" alt="Sistema Integral de Documentación para Filmotecas" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">07</span><h3>SIDF</h3><span class="project-tags" data-i18n="portfolio.p7_tags">Backend • Frontend • Database</span><p data-i18n="portfolio.p7_desc">Frontend público y administrativo, diseño de base de datos y módulos backend.</p></div>
+        </article>
+        <article class="project-card">
+          <div class="project-card-media"><img src="assets/img/portfolio/vita-data.jpg" alt="Vita-Data" loading="lazy" data-toggle="modal" data-target="#modalPortfolio" class="modal-change"></div>
+          <div class="project-card-body"><span class="project-number">08</span><h3>Vita-Data</h3><span class="project-tags" data-i18n="portfolio.p8_tags">Health monitoring • IoT • Software</span><p data-i18n="portfolio.p8_desc">Solución multidisciplinaria para monitoreo de pacientes en tiempo real e integración de hardware y software.</p></div>
+        </article>
+        <article class="project-card project-card-text">
+          <div class="project-card-body"><span class="project-number">09</span><div class="project-card-icon"><i class="bx bx-credit-card"></i></div><h3 data-i18n="portfolio.p9_title">Integración de Pasarela de Pagos</h3><span class="project-tags" data-i18n="portfolio.p9_tags">React • Node.js • Stripe</span><p data-i18n="portfolio.p9_desc">Implementación de pagos, webhooks, autenticación, configuración para producción y frontend responsive.</p></div>
+        </article>
       </div>
 
     </div>
   </section><!-- End Portfolio Section -->
+
+  <!-- ======= Research Section ======= -->
+  <section id="research" class="research">
+    <div class="container">
+      <div class="section-title">
+        <h2 data-i18n="research.section_label">Investigación</h2>
+        <p data-i18n="research.section_subtitle">Publicaciones y reconocimientos</p>
+      </div>
+      <div class="research-card">
+        <div class="research-mark"><i class="bx bx-file-blank"></i></div>
+        <div class="research-copy">
+          <span class="research-kicker" data-i18n="research.kicker">Artículo científico</span>
+          <h3 data-i18n="research.title">Artículo científico</h3>
+          <p data-i18n="research.description">Consulta y descarga el artículo científico disponible en este portafolio.</p>
+        </div>
+        <a class="research-download" href="articulo-cientifico.pdf" download data-i18n="research.download"><i class="bx bx-download"></i> Descargar PDF</a>
+      </div>
+    </div>
+  </section><!-- End Research Section -->
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">

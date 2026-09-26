@@ -1381,6 +1381,240 @@ section .container {
   opacity: 1;
 }
 
+/*--------------------------------------------------------------
+# Portfolio Showcase
+--------------------------------------------------------------*/
+.portfolio-showcase {
+  padding: 60px 0 30px;
+}
+
+.portfolio-showcase .section-title {
+  margin-bottom: 34px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.project-card {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.035));
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card-featured {
+  grid-column: span 6;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(24, 210, 110, 0.75);
+  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.3);
+}
+
+.project-card-media {
+  height: 210px;
+  overflow: hidden;
+  background: #101b1d;
+}
+
+.project-card-featured .project-card-media {
+  height: 260px;
+}
+
+.project-card-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: transform 0.5s ease, opacity 0.3s ease;
+}
+
+.project-card:hover .project-card-media img {
+  transform: scale(1.045);
+  opacity: 0.9;
+}
+
+.project-card-body {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 24px 26px;
+  text-align: left;
+}
+
+.project-number {
+  display: block;
+  margin-bottom: 10px;
+  color: #18d26e;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.project-card h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+.project-tags {
+  display: inline-block;
+  margin-bottom: 14px;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.project-card p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.project-card-text {
+  background: linear-gradient(145deg, rgba(24, 210, 110, 0.2), rgba(255, 255, 255, 0.04));
+}
+
+.project-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  margin: 2px 0 20px;
+  border: 1px solid rgba(24, 210, 110, 0.65);
+  border-radius: 12px;
+  color: #18d26e;
+  font-size: 25px;
+}
+
+/*--------------------------------------------------------------
+# Research
+--------------------------------------------------------------*/
+.research {
+  padding: 45px 0 30px;
+}
+
+.research-card {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 24px 28px;
+  border: 1px solid rgba(24, 210, 110, 0.35);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.research-mark {
+  display: flex;
+  flex: 0 0 58px;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 12px;
+  background: rgba(24, 210, 110, 0.14);
+  color: #18d26e;
+  font-size: 28px;
+}
+
+.research-copy {
+  flex: 1;
+}
+
+.research-kicker {
+  color: #18d26e;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.research-copy h3 {
+  margin: 5px 0 6px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 21px;
+}
+
+.research-copy p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 14px;
+}
+
+.research-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 16px;
+  border: 1px solid #18d26e;
+  border-radius: 6px;
+  color: #18d26e;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.research-download:hover {
+  background: #18d26e;
+  color: #101b1d;
+}
+
+@media (max-width: 991px) {
+  .project-card,
+  .project-card-featured {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 575px) {
+  .project-card,
+  .project-card-featured {
+    grid-column: span 12;
+  }
+
+  .project-card-featured .project-card-media,
+  .project-card-media {
+    height: 210px;
+  }
+
+  .research-card {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 22px;
+  }
+
+  .research-copy {
+    flex-basis: calc(100% - 80px);
+  }
+
+  .research-download {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 .opensource-card-header {
   display: flex;
   align-items: center;
