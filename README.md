@@ -8,7 +8,7 @@
 
 > 🌐 **Live:** [jesus-mendoza.pages.dev](https://jesus-mendoza.pages.dev)
 
-Personal portfolio and CV landing page for **Jesús Mendoza Verduzco**, Senior Frontend Developer with 6+ years of experience in React 18, Next.js, TypeScript, and Java/Spring Boot.
+Personal portfolio and CV landing page for **Jesús Mendoza Verduzco**, FullStack Software Engineer with 7+ years of experience and a frontend focus in React, TypeScript, Next.js, and Java/Spring Boot.
 
 ---
 
@@ -113,9 +113,9 @@ The selected language is persisted in `localStorage` and the `<html lang="">` at
 
 | Role | Company | Period |
 |---|---|---|
-| Senior Frontend Developer | AI27 Predictive Intelligence | Jul 2024 – Present |
-| Full Stack Developer | Xilion.io & Kiotrack | Sep 2018 – Jul 2024 |
-| Semi-Senior Frontend Dev | Archivo Histórico del Estado de Colima | 2017 – 2018 |
+| FullStack Software Engineer — Frontend Focus | AI27 Predictive Intelligence | Jul 2024 – Sep 2026 |
+| FullStack Software Engineer — Frontend Focus | Xilion.io & Kiotrack | Sep 2018 – Jul 2024 |
+| FullStack Developer | Archivo Histórico del Estado de Colima | Feb 2018 – Sep 2018 |
 
 ---
 
