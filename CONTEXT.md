@@ -31,4 +31,4 @@ No existe proceso de compilación. El sitio se puede abrir directamente o servir
 
 ## Contenido profesional
 
-El perfil incluye experiencia en AI27 Predictive Intelligence, Xilion.io & Kiotrack y el Archivo Histórico del Estado de Colima. Los proyectos destacados son RAZO CRM, Nvita API, integración de Stripe y Vita-Data.
+El perfil incluye experiencia en AI27 Predictive Intelligence, Xilion.io & Kiotrack y el Archivo Histórico del Estado de Colima. Los proyectos destacados son RAZO CRM, Nvita API, Expense Tracking, Documentation Hub, Chernobyl, COVID-19 INFO, SIDF, Vita-Data e integración de Stripe. También incluye el programa de investigación Delfín y el archivo descargable `articulo-cientifico.pdf`.

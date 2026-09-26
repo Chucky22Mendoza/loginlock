@@ -103,8 +103,9 @@ The selected language is persisted in `localStorage` and the `<html lang="">` at
 | **Skills** | Animated progress bars — React, TS, Java, Docker, etc. |
 | **Interests** | Icon grid of personal and professional interests |
 | **Resume** | Education + professional experience timeline |
+| **Research** | Scientific article download and research achievements |
 | **Open Source** | npm packages: `just-barcode-hook`, `loginlock-kit` |
-| **Portfolio** | Featured projects with modal image viewer |
+| **Portfolio** | Nine projects with named images, responsive cards and modal image viewer |
 | **Contact** | City, social links, email, phone |
 
 ---
@@ -125,6 +126,15 @@ The selected language is persisted in `localStorage` and the `<html lang="">` at
 |---|---|---|
 | `just-barcode-hook` | 50+ / week | [npm](https://www.npmjs.com/package/just-barcode-hook) |
 | `loginlock-kit` | 20+ / week | [npm](https://www.npmjs.com/package/loginlock-kit) |
+
+## 🧩 Featured Projects
+
+RAZO CRM, Nvita API, Expense Tracking, Documentation Hub, Chernobyl Exclusion Zone, COVID-19 INFO, SIDF, Vita-Data, and Stripe payment gateway integration.
+
+## 🔬 Research
+
+- Delfín Research Summer Program (2018), Universidad Politécnica de Querétaro.
+- Scientific article available for download at [`articulo-cientifico.pdf`](articulo-cientifico.pdf).
 
 ---
 
