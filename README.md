@@ -115,6 +115,7 @@ The selected language is persisted in `localStorage` and the `<html lang="">` at
 | Role | Company | Period |
 |---|---|---|
 | FullStack Software Engineer — Frontend Focus | AI27 Predictive Intelligence | Jul 2024 – Sep 2026 |
+| Co-Founder & Software Engineer — Part-time | Spartans Dev | Feb 2025 – Present |
 | FullStack Software Engineer — Frontend Focus | Xilion.io & Kiotrack | Sep 2018 – Jul 2024 |
 | FullStack Developer | Archivo Histórico del Estado de Colima | Feb 2018 – Sep 2018 |
 
